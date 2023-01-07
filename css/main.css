@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(84, 96, 126);
+}
+
+.loading {
+    margin: 400px auto;
+    width: 60px;
+    height: 50px;
+    background: rgb(84, 96, 126);
+    display: flex;
+    gap: 5px;
+}
+
+.spin {
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.rectangle1 {
+    height: 100%;
+    background: #ffffff;
+    width: 7px;
+    /* height: 50px; */
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation-delay: -1.1s;
+}
+
+.rectangle2 {
+    height: 100%;
+    background: #ffffff;
+    width: 8px;
+    /* height: 50px; */
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation-delay: -1.0s;
+}
+
+.rectangle3 {
+    height: 100%;
+    background: #ffffff;
+    width: 7px;
+    /* height: 50px; */
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation-delay: -0.9s;
+}
+
+.rectangle4 {
+    height: 100%;
+    background: #ffffff;
+    width: 7px;
+    /* height: 50px; */
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation-delay: -0.8s;
+}
+
+.rectangle5 {
+    height: 100%;
+    background: #ffffff;
+    width: 7px;
+    /* height: 50px; */
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation-delay: -0.7s;
+}
+
+.rectangle6 {
+    height: 100%;
+    background: #ffffff;
+    width: 7px;
+    /* height: 50px; */
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation-delay: -0.6s;
+}
+
+@keyframes sk-stretchdelay {
+    0%,
+    40%,
+    100% {
+        transform: scaleY(0.4);
+    }
+    20% {
+        transform: scaleY(1.0);
+    }
+}
